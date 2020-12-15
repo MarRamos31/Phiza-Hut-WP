@@ -36,22 +36,24 @@
 
 
         <a href="/deletecart/{{$cartview->id}}">
-        <button type="button"  class="btn btn-secondary btn-sm">Delete button</button>
+        <button type="button"  class="btn btn-secondary btn-sm justify-content-center">Delete button</button>
         </a>
 
 
     </div>
+        <form   action="/checkout/{{$cartview->id}}" method="post" enctype="multipart/form-data">
+            <div class="row justify-content-center">
 
+
+                <button type="submit" class="bt btn-danger ">Checkout</button>
+
+            </div>
+        </form>
 
 
     @endforeach
-        <form action="">
-        <div class="row justify-content-center">
-            <a>
-        <button type="submit" class="bt btn-danger ">Checkout</button>
-            </a>
-            </form>
-        </div>
+
+
 
 
     </div>

@@ -54,4 +54,5 @@ Route::post('cart/{id}','EditDeletePizza@cartOrder');
 Route::get('/cartPizzaview','EditDeletePizza@cartView');
 Route::post('/updatecart/{id}/{pizzaid}','EditDeletePizza@cartUpdate');
 Route::get('/deletecart/{id}','EditDeletePizza@cartDelete');
+Route::post('/checkout/{id}','EditDelete@CheckoutCart');
 

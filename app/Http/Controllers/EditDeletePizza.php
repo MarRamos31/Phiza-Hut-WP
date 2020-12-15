@@ -164,5 +164,11 @@ class EditDeletePizza extends Controller
         DB::table('cart')->where('id',$id)->delete();
 
     }
+    public function transactionView()
+    {
+        $tr = CartDetail::all();
+        return view('viewTransaction',compact('tr'));
+
+    }
 }
 

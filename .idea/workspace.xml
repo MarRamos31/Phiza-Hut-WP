@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4596a05a-8635-473e-b604-0c0ddda77532" name="Default Changelist" comment="" />
+    <list default="true" id="4596a05a-8635-473e-b604-0c0ddda77532" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EditDeletePizza.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EditDeletePizza.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/viewTransaction.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/cartPizzaview.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/cartPizzaview.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -174,7 +183,8 @@
       <workItem from="1607753880504" duration="453000" />
       <workItem from="1607756827979" duration="3323000" />
       <workItem from="1607917720495" duration="32545000" />
-      <workItem from="1608002437323" duration="3208000" />
+      <workItem from="1608002437323" duration="5343000" />
+      <workItem from="1608035868820" duration="629000" />
     </task>
     <servers />
   </component>
